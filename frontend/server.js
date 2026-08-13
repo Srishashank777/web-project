@@ -1,7 +1,7 @@
 const express = require("express")
-	 const app = express()
-	const port = 8086
+     const app = express()
+    const port = 8086
 app.use(express.static("frontend"))
-	app.listen(port, function(){
+    app.listen(port, function(){
 console.log("my app is running at http://localhost:" +port)
 })
